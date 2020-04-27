@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: ysmr
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  profiles:
+    active: @profileActive@
+  jpa:
+    show-sql: true
+
+server:
+  port: 5270
+  servlet:
+    context-path: /ysmr
+    session:
+      timeout: 30
+logging:
+  config: classpath:logback.xml
+  level:
+    root: INFO

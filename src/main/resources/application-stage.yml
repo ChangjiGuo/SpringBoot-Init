@@ -1,0 +1,15 @@
+ysmr:
+  ### dal config
+  dal:
+    datasource:
+      env: product
+      projectId: bigdata.java.yssqoopworker
+      dbName: TCDCBigDataYsSqoop
+
+  #### common config
+
+  config:
+    secretCode: 8f49ahixCDZFE4IR
+    maxSubmitTasks: 40
+    maxMonitorTasks: 60
+    maxCheckTasks: 60
