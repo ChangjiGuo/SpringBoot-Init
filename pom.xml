@@ -23,7 +23,7 @@
         <tcbase.version>1.0.3.16</tcbase.version>
         <lombok.version>1.18.12</lombok.version>
         <okhttp.version>3.10.0</okhttp.version>
-        <springfox.version>2.6.1</springfox.version>
+        <springfox.version>2.10.0</springfox.version>
     </properties>
 
     <dependencies>
